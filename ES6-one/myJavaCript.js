@@ -22,9 +22,16 @@ let sum = (a,b,c) => {
 sum(3,4,3);
 funScop();
 
-const pi = 3.14;
+ const pi = 3.14;
 function calculateArea(r){
  return pi * r *r ;
 }
 
 console.log(calculateArea(3));
+
+// var item = document.getElementById("li");
+// for(let x=0; x<item.length; x++){
+//     item[x].onClick = function(){
+//         console.log(x);
+//     }
+// }
